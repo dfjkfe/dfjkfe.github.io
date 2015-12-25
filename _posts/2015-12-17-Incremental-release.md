@@ -15,20 +15,6 @@ categories: jekyll update
 
      3.时间戳校验
 
-# 什么是增量式更新？ #
-
-
-- 增量式：
-
-     静态资源的内容变化时，可以用某种增量的方式体现这种变化。
-- 增量式的一边实现方式：
-
-     1.文件名增加随机版本号
-
-     2.资源文件MD5校验
-
-     3.时间戳校验
-
 - 使用增量式的原因：
 
     1.运维**灰度环境**问题（版本回滚）：
@@ -69,3 +55,5 @@ categories: jekyll update
 			}
            3.用命令npm install 或npm install --save-dev，自动将package.json中的模块安装到node-modules文件夹下。
            4.对于要压缩、合并的css,js可在Gruntfile.js里修改。
+
+
